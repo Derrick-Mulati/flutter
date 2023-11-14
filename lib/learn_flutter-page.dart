@@ -59,12 +59,18 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
               child: const Text('Elevated Button'),
             ),
             OutlinedButton(
+              style: OutlinedButton.styleFrom(
+                primary: isSwitch ? Colors.green : Colors.blue,
+              ),
               onPressed: () {
                 debugPrint('Outlined Button');
               },
               child: const Text('Outlined Button'),
             ),
             TextButton(
+              style: TextButton.styleFrom(
+                primary: isSwitch ? Colors.green : Colors.blue,
+              ),
               onPressed: () {
                 debugPrint('Text Button');
               },
