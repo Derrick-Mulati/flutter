@@ -51,16 +51,16 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: isSwitch ? Colors.green : Colors.blue,
+                primary: isSwitch ? Colors.green : Colors.red,
               ),
               onPressed: () {
                 debugPrint('Elevated Button');
               },
-              child: const Text('Elevated Button'),
+              child: const Text('PAID'),
             ),
             OutlinedButton(
               style: OutlinedButton.styleFrom(
-                primary: isSwitch ? Colors.green : Colors.blue,
+                primary: isSwitch ? Colors.green : Colors.red,
               ),
               onPressed: () {
                 debugPrint('Outlined Button');
@@ -69,7 +69,7 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: isSwitch ? Colors.green : Colors.blue,
+                primary: isSwitch ? Colors.green : Colors.red,
               ),
               onPressed: () {
                 debugPrint('Text Button');
